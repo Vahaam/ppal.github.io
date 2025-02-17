@@ -142,9 +142,9 @@
             margin-left: 20px;
         }
         .ppmargen p{
-            font-size: 10px;
-            color: #949494;
-            letter-spacing: -0.6px;
+            font-size: 12px;
+            color: #686868;
+            letter-spacing: -0.4px;
         }
 
 
@@ -167,12 +167,14 @@
 }
 
 .progress-text {
+    font-family: 'Roboto';
     position: absolute;
     top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 10px;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: -0.3px;
     color: #000000;
 }
 
@@ -194,7 +196,7 @@
     font-family: "Rubik", serif;
     letter-spacing: -0.5px;
     font-size: 12px;
-    color: gray;
+    color: #686868;
 }
 
 
@@ -202,7 +204,7 @@
         .balance h1{
             font-size: 1.6rem;
             font-family: "Rubik", serif;
-            font-weight: 500;
+            font-weight: bold;
             letter-spacing: -1.2px;
             margin-bottom: 5px;
         }
@@ -210,7 +212,7 @@
             background: white;
             padding: 15px;
             border-radius: 10px;
-            margin: 15px;
+            margin: 0 15px 15px 15px;
             display: flex;
             align-items: center;
         }
@@ -238,7 +240,7 @@
         .transaction {
     display: flex;
     flex-direction: column;
-    background: white;
+    background: #ffffff;
     padding: 15px;
     /* border-radius: 10px 10px 0px 0px; */
     margin-bottom: 2px;
@@ -293,8 +295,8 @@
 }
 
 .description {
-    color: gray;
-    font-size: 10px;
+    color: #686868;
+    font-size: 12px;
 }
 
 .amount {
@@ -332,14 +334,15 @@
             /* padding: 15px; */
         }
         .footer-buttons button {
+            font-family: Roboto, serif;
             padding: 12px 20px;
             border: none;
-            background: black;
+                background: black;
             color: white;
             border-radius: 50px;
             font-size: 16px;
             width: 45%;
-            font-weight: bold;
+        font-weight: bold;
         }
         .footer-menu {
             display: flex;
@@ -423,9 +426,9 @@
         <div class="transactions">
             <div class="transaction" style="border-radius: 10px 10px 0 0;">
                 <div class="transaction-left">
-                    <div class="avatar">AV</div>
+                    <div class="avatar">MV</div>
                     <div class="transaction-info">
-                        <p class="name">Andres Villareal  
+                        <p class="name">Marco Villareal  
                         </p>
                         <p class="date">feb 17</p>
                     </div>
@@ -450,18 +453,18 @@
                 </div>
             </div>
             
-            <div class="see-more transaction">Ver más</div>
+            <div class="see-more transaction">See more</div>
         </div>
 
         <div class="footer">
             <div class="footer-buttons">
-                <button>Enviar</button>
-                <button>Solicitar</button>
+                <button>Send</button>
+                <button>Request</button>
             </div>
             <div class="footer-menu">
-                <div><img src="IMG_0259.PNG" alt=""><br><p>Inicio</p></div>
-                <div><img src="IMG_0260.PNG" alt=""><br><p>Pagos</p></div>
-                <div><img src="IMG_0261.PNG" alt=""><br><p>Cartera</p></div>
+                <div><img src="IMG_0259.PNG" alt=""><br><p>Home</p></div>
+                <div><img src="IMG_0260.PNG" alt=""><br><p style="color: #686868;">Payments</p></div>
+                <div><img src="IMG_0261.PNG" alt=""><br><p style="color: #686868;">Wallet</p></div>
             </div>
         </div>
     </div>
