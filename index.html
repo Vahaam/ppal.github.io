@@ -258,8 +258,8 @@
 
 .avatar {
     font-family: "Poppins", sans-serif;
-    width: 45px;
-    height: 45px;
+    width: 49px;
+    height: 49px;
     background: #7DCBF9;
     color: rgb(0, 0, 0);
     font-weight: 600;
@@ -267,7 +267,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .transaction-info {
@@ -294,8 +294,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .description {
@@ -316,7 +316,7 @@
 
         .see-more {
             font-family: "Rubik", serif;
-            font-size: 13px;
+            font-size: 14px;
     letter-spacing: -0.3px;
     font-weight: 700;
     text-align: center;
@@ -354,6 +354,7 @@
             justify-content: space-around;
             padding: 10px;
             font-size: 2px;
+            margin-bottom: 20px;
         }
         .footer-menu img{
             width: 30%;
@@ -368,6 +369,22 @@
         .footer-menu div {
             text-align: center;
             font-size: 14px;
+        }
+                        /* Línea de navegación (abajo) */
+                        .nav-bar {
+            width: 100%;
+            position: fixed;
+            bottom: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-line {
+            width: 150px;
+            height: 5px;
+            background: rgb(0, 0, 0);
+            border-radius: 10px;
+            opacity: 0.8;
         }
     </style>
 </head>
@@ -431,9 +448,9 @@
         <div class="transactions">
             <div class="transaction" style="border-radius: 10px 10px 0 0;">
                 <div class="transaction-left">
-                    <div class="avatar">MV</div>
+                    <div class="avatar">MA</div>
                     <div class="transaction-info">
-                        <p class="name">Marco Villareal  
+                        <p class="name">Marco Alarcia  
                         </p>
                         <p class="date">Feb 17</p>
                     </div>
@@ -472,6 +489,10 @@
                 <div><img src="IMG_0261.PNG" alt=""><br><p style="color: #686868; font-family: Rubik, serif;">Wallet</p></div>
             </div>
         </div>
+            <!-- Línea de navegación inferior -->
+    <div class="nav-bar">
+        <div class="nav-line"></div>
+    </div>
     </div>
 </body>
 </html>
